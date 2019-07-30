@@ -1,0 +1,19 @@
+data.js - файлик в €кому дан≥ ≥ ми хочемо пот≥м його використовувати в ≥нших файлах
+function myFunc(){
+....
+}
+const data={
+name:'Yasya',
+}
+//Utils
+module.exports=myFunc
+module.exports=data
+
+//гарн≥ший запис
+modul.exports={data:data,
+myFunc:myFunc}
+
+ўоб отримати файл
+const data = require('app.js')
+
+роут - це путь по нашому сайту
